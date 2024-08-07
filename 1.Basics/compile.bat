@@ -1,5 +1,5 @@
 @echo off
-set name="echo"
+set name="calculator"
 nasm -f win32 %name%.asm
 gcc -o %name% %name%.obj driver.c asm_io.obj
 echo "--------------------------------------------------------------"
